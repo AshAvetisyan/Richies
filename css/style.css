@@ -1,0 +1,482 @@
+*{
+	margin: 0;
+}
+
+header{
+	height: 110px;
+	width: 100%;
+	background-color: #181818;
+    display: flex;
+}
+
+.headerconto{
+	width: 50%;
+	height: 130px;
+	justify-content: flex-start;
+	position: relative;
+}	
+
+.menu{
+    margin-left: 400px;
+     
+}
+
+.logo{
+	position: absolute;
+	width: 110px;
+	left: 150px;
+
+}
+
+.logo:hover{
+	opacity:  50%;
+	transition: 0.8s;
+}
+
+
+.menu li{
+	list-style: none;
+	float: left;
+    margin: 0 15px;
+    width: 85px;
+}
+
+.onho{
+	margin-left: 0px;
+}
+
+.menu a{
+	text-decoration: none;
+    color: #c78c40;
+    display: inline-block;
+	text-align: center;
+    font-size: 19px;
+    width: 100%;
+    line-height: 130px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.menu a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.menutwo li{
+    list-style: none;
+	float: left;
+    margin: 0 40px;
+    width: 80px;
+    margin-top: -40px;
+}
+
+.secnav{
+	width: 100%;
+	height: 60px;
+    background-color: #dcdcdc;
+    padding-top: 5px;
+}
+
+.twho{
+	padding-left: -100px;
+}
+
+.menutwo a{
+	text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    line-height: 130px;
+    margin-left: 600px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.menutwo a:hover{
+	color: #c78c40;
+	transition: 0.2s;
+}
+
+.world{
+	padding-left: 40px;
+}
+
+.watchhh{
+	padding-left: 15px;
+}
+
+.jew{
+	padding-left: 50px;
+}
+
+.neckimg{
+	width: 800px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-left: -600px;
+}
+
+.neckimg:hover{
+	opacity: 50%;
+	transition: 0.5s
+}
+
+.mainimg{
+	width: 30%;
+	justify-content: flex-start;
+}
+
+main{
+	display: flex;
+}
+
+.context{
+	justify-content: flex-start;
+}
+
+.context h1{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #323232;
+}
+
+.context p{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 40px;
+    margin-left: 00px;
+    color: #323232;
+}
+
+.buy{
+    width: 210px; 	
+    height: 60px;
+    border:  1px solid black;
+    margin-left: 80px;
+    margin-top: 300px; 
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.buy:hover{
+	color: #c78c40;
+	background-color: black;
+	transition: 0.5s;
+}
+
+
+.learnm{
+    width: 210px; 	
+    height: 60px;
+    border:  1px solid black;
+    margin-left: -4px;
+    margin-top: 150px; 
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+    color: black;
+    border-left: none;
+}
+
+.learnm:hover{
+    color: #c78c40;
+	background-color: black;
+	transition: 0.5s;
+}
+
+.secheader{
+	text-align: center;
+	font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.products{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.watchone{
+	border: 1px solid black; 
+	margin-left: 0px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	margin-right: 40px;
+	height: 410px;
+}
+
+.watchone:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchoneimg{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.watchone h4{
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+
+.watchone p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.onemoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+.itemtwo{
+	height: 410px;
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: #E4E4E4; 
+	margin-right: 40px;
+}
+
+.itemtwo:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.itemtwoimg{
+    width: 300px;
+    height: 285px;
+    margin-bottom: ;
+    background-color:#EDEDED;
+
+}
+
+.itemtwo h4{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	padding-top: 10px;
+    text-decoration: none;
+}
+
+.itemtwo p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+
+}
+
+.twomoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.products a{
+     text-decoration: none;
+     font-family: 'Barlow', sans-serif;
+}
+
+.itemthr{
+	height: 410px;
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: #E4E4E4; 
+	margin-right: 40px;
+}
+
+.itemthr:hover{
+	opacity: 50%;
+	transition: 0.5s;
+
+}
+
+.itemthrimg{
+    width: 300px;
+    height: 285px;
+    margin-bottom: ;
+    background-color:#EDEDED;
+
+}
+
+.itemthr h4{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	padding-top: 10px;
+    text-decoration: none;
+}
+
+.itemthr p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+
+}
+
+.thrmoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+
+.itemfr{
+	height: 410px;
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: #E4E4E4; 
+}
+
+.itemfr:hover{
+	opacity: 50%;
+	transition: 0.5s;
+
+}
+
+.itemfrimg{
+    width: 300px;
+    height: 285px;
+    margin-bottom: 
+    background-color:#EDEDED;
+}
+
+.itemfr h4{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	padding-top: 10px;
+    text-decoration: none;
+}
+
+.itemfr p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+
+}
+
+.frmoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	height: 200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #181818;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.footerdiv{
+	justify-content: flex-start;
+}
+
+.footerdiv h3{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.footerdiv p{
+	margin-left: 80px;
+}
+
+.footerdivtwo{
+	justify-content: flex-start;
+}
+
+.footerdivtwo h3{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.footerdivtwo p{
+	margin-left: 300px;
+}
+
+.footerdivthr{
+	flex: start;
+}
+
+.footerdivthr h3{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.footerdivthr p{
+    margin-left: 300px;
+}
+
+.footerdivfour{
+	flex: start;
+}
+
+.footerdivfour h3{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.footerdivfour p{
+    margin-left: 300px;
+}    

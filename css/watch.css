@@ -1,0 +1,693 @@
+*{
+	margin: 0;
+}
+
+header{
+	height: 110px;
+	width: 100%;
+	background-color: #181818;
+    display: flex;
+}
+
+.headerconto{
+	width: 50%;
+	height: 130px;
+	justify-content: flex-start;
+	position: relative;
+}	
+
+.menu{
+    margin-left: 400px;
+     
+}
+
+.logo{
+	position: absolute;
+	width: 110px;
+	left: 150px;
+
+}
+
+.logo:hover{
+	opacity:  50%;
+	transition: 0.8s;
+}
+
+
+.menu li{
+	list-style: none;
+	float: left;
+    margin: 0 15px;
+    width: 85px;
+}
+
+.onho{
+	margin-left: 0px;
+}
+
+.menu a{
+	text-decoration: none;
+    color: #c78c40;
+    display: inline-block;
+	text-align: center;
+    font-size: 19px;
+    width: 100%;
+    line-height: 130px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.menu a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.menutwo li{
+    list-style: none;
+	float: left;
+    margin: 0 40px;
+    width: 80px;
+    margin-top: -40px;
+}
+
+
+.secnav{
+	width: 100%;
+	height: 50px;
+    background-color: #dcdcdc;
+    padding-top: 3px;
+}
+
+.twho{
+	margin-left: -500px;
+}
+
+
+
+.menutwo a{
+	text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    line-height: 130px;
+    margin-left: 600px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.menutwo a:hover{
+	color: #c78c40;
+	transition: 0.2s;
+}
+
+.world{
+	padding-left: 40px;
+}
+
+.watchhh{
+	padding-left: 15px;
+}
+
+.jew{
+	padding-left: 50px;
+}
+
+.fullwatch{
+	width: 1850px;
+    margin-top: 30px;
+    margin-left: auto;
+    display: inherit;
+    margin-right: auto;
+}
+
+.watchrichies{
+	text-align: center;
+	margin-top: 40px;
+    font-size: 32px; 
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.watchone{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 180px;
+}
+
+.watchone{
+	height: 448px;
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: #E4E4E4; 
+	margin-right: 40px;
+}
+
+.watchone:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchoneimg{
+    width: 300px;
+    height: 325px;
+    margin-bottom: px;
+    background-color: #EDEDED;
+}
+
+.watchone h4{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: black;
+	padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #c78c40;
+}
+
+.watchone p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.onemoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+main a{
+    text-decoration: none;
+}
+
+
+.watchtwo{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 180px;
+
+}
+
+.watchtwo{
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: white; 
+	margin-right: 40px;
+}
+
+.watchtwo:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchtwoimg{
+    width: 220px;
+    height: 297px;
+    margin-bottom: 20px;
+    background-color: white; 
+    padding-left: 40px;
+    padding-top: 10px; 
+}
+
+.watchtwo h4{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: black;
+	padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #c78c40;
+}
+
+.watchtwo p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.twomoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.contwatches{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.watchthr{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 180px;
+
+}
+
+.watchthr{
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: white; 
+	margin-right: 40px;
+}
+
+.watchthr:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchthrimg{
+    width: 260px;
+    height: 297px;
+    margin-bottom: 20px;
+    background-color: white; 
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
+.watchthr h4{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: black;
+	padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #c78c40;
+}
+
+.watchthr p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.thrmoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+.watchfr{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 180px;
+
+}
+
+.watchfr{
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: white; 
+	margin-right: 40px;
+}
+
+.watchfr:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchfrimg{
+    width: 260px;
+    height: 297px;
+    margin-bottom: 20px;
+    background-color: white; 
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
+.watchfr h4{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: black;
+	padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #c78c40;
+}
+
+.watchfr p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.frmoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+
+.watchsx{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 180px;
+
+}
+
+.watchsx{
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: white; 
+	margin-right: 40px;
+}
+
+.watchsx:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchsximg{
+    width: 260px;
+    height: 277px;
+    margin-bottom: 20px;
+    background-color: white; 
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
+.watchsx h4{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: black;
+	padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #c78c40;
+}
+
+.watchsx p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.sxmoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+.contwatchestwo{
+	display: flex;
+	justify-content: center;
+}
+
+
+.watchsv{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 180px;
+
+}
+
+.watchsv{
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: white; 
+	margin-right: 40px;
+}
+
+.watchsv:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchsvimg{
+    width: 260px;
+    height: 277px;
+    margin-bottom: 20px;
+    background-color: white; 
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
+.watchsv h4{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: black;
+	padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #c78c40;
+}
+
+.watchsv p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.svmoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+
+
+.watchgh{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 180px;
+
+}
+
+.watchgh{
+	border: 1px solid black; 
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: white; 
+	margin-right: 40px;
+}
+
+.watchgh:hover{
+	opacity: 50%;
+	transition: 0.5s;
+}
+
+.watchghimg{
+    width: 260px;
+    height: 277px;
+    margin-bottom: 20px;
+    background-color: white; 
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
+.watchgh h4{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: black;
+	padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #c78c40;
+}
+
+.watchgh p{
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.ghmoney{
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #c78c40;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	height: 200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #181818;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.footerdiv{
+	justify-content: flex-start;
+}
+
+.footerdiv h3{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.footerdiv p{
+	margin-left: 80px;
+}
+
+.footerdivtwo{
+	justify-content: flex-start;
+}
+
+.footerdivtwo h3{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.footerdivtwo p{
+	margin-left: 300px;
+}
+
+.footerdivthr{
+	flex: start;
+}
+
+.footerdivthr h3{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.footerdivthr p{
+    margin-left: 300px;
+}
+
+.footerdivfour{
+	flex: start;
+}
+
+.footerdivfour h3{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.footerdivfour p{
+    margin-left: 300px;
+}    
